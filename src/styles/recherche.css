@@ -1,0 +1,21 @@
+
+.recherche{
+    background-color: white;
+    border-radius: 15px;
+    display:inline-block;
+    margin-left: 50px;
+    background-color: #ececec;
+    border-radius: 20px;
+    padding: 0em 1em 0em 1em;
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.recherche .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}

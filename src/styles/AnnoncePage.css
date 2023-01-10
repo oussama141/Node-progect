@@ -1,0 +1,11 @@
+.title {
+    font-size: 38px;
+    text-align:left;
+    color: #5F96FE;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+.sec .cart .cards{
+    display: flex;
+
+}

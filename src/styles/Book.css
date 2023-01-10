@@ -1,0 +1,51 @@
+.global2{
+    display: flex;
+    justify-content: center;
+    align-items:center ;  
+}
+
+.res{
+    margin-top: 150px;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 40%;
+    display: block;
+}
+
+
+.res .container-res {
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.res  .title-res {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.res .container-res .container-body-res .inputs-res {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 20px;
+    margin-top: 0px;
+}
+
+.res .container-res .container-body-res .btns-res {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.res .container-res .container-body-res .btns-res .MuiButton-root {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}

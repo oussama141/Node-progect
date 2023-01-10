@@ -1,0 +1,97 @@
+.global{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.add-annonce {
+    margin-top: 100px;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 40%;
+    display: block;
+}
+
+.add-annonce .title{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.add-annonce .content{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.add-annonce .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add-annonce .container .container-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.add-annonce .container .container-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .add-annonce .container .container-body .MuiButton-root {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.add-annonce .container .container-body .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.add-annonce .container .container-body .inputs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr, 7);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.add-annonce .container .container-body .inputs-container .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-annonce .container .container-body .inputs-container .desc{
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.add-annonce .container .container-body .btns-container {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-annonce .container .container-body .btns-container .MuiButton-root {
+    margin-left: 20px;
+}
+/* .add-annonce .container .container-body .right-side .inputs-container .price{
+    display: flex;
+margin : auto ;
+    align-items: center;
+} */
+.MuiFormControl-root .MuiTextField-root .css-136h9lv-MuiFormControl-root-MuiTextField-root {
+
+    display: block;
+    margin: auto;
+}
+

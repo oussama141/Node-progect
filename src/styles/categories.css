@@ -1,0 +1,47 @@
+
+.categoriez{
+    margin-top: 230px;
+    width : 100% ;
+}
+
+.categoriez .cardz{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width : 90% ;
+    margin: auto;
+    gap : 30px ;
+}
+.categoriez .cardz .carde img {
+    display : block ;
+    width: 100%;
+    height : 50vh ;
+    border-radius: 10px;
+}
+
+.categoriez .titlectg{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight:600;
+    font-size: 40px;
+    font-style: oblique;
+    text-decoration: solid;
+    color: rgb(86, 50, 245);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.categoriez .cardz .carde .text{
+    margin-top: 10px;
+    font-weight:500;
+    margin-left: 10px;
+}
+
+.categoriez .cardz .carde .nbr{
+    margin-top: 10px;
+    font-weight:500;
+    margin-left: 10px;
+    
+}

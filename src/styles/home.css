@@ -1,0 +1,42 @@
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    margin-top: 100px;
+    
+}
+.home .img-area img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.home .titles{
+    font-family: 'Verdana';
+    margin-top: 70px  ;
+    margin-left: 75px;
+}
+
+.home .titles .title1{  
+    font-size: 40px;
+    font-style: oblique;
+    color: rgb(12, 12, 71);
+}
+.home .titles .title2{
+    margin-top: 30px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 0px;
+}
+
+.home .input{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
